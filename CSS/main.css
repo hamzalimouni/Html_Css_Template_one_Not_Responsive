@@ -1,0 +1,663 @@
+ /* Start Main Rulez */
+ /* *{box-sizing} */
+
+ body
+ {
+    /*background-color: #888;*/
+    font-family: sans-serif;
+ }
+
+ .clearfix
+ {
+     clear: both;
+ }
+
+ .container
+ {
+     width: 1000px;
+     margin: auto;
+ }
+
+ ul, ol
+ {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Start Main Rulez */
+
+ /* Start Header */
+
+.header .slider
+{
+    height: 500px;
+    background-image: url('../Images/slider.jpg');
+    height: 600px;
+    background-size: cover;
+}
+
+ .header .navbar
+ {
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+ }
+
+ .header .slider .intro 
+ {
+     text-align: center;
+    padding-top: 250px;
+
+ }
+
+.header .slider .intro h2, button
+{
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.header .slider .intro h2
+{
+    font-size: xx-large;
+    width: 450px;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+.header .slider .intro button
+{
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .navbar h2
+{
+    float: left;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span
+{
+    color: #2ecc71;
+}
+
+.header .navbar ul
+{
+    overflow: hidden;
+    float: right;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a
+{
+    color: #FFF;
+    text-decoration: none;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header .navbar ul li.active a ,
+.header .navbar ul li a:hover 
+{
+    color: #30B576;
+}
+
+ /* End Header */
+
+ /* Start Features */
+
+.features
+{
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.features .container .feat
+{
+    width: 33.3333%;
+    color: #888;
+    float: left;
+}
+
+.features .container .feat h2
+{
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.features .container .feat p
+{
+    line-height: 1.6;
+    text-align: justify;
+    color: #D1D1D1;
+    padding: 0 20px 0 0;
+}
+
+ /* End Features */
+
+ /* Start About me */
+
+.about-me
+{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .container .image
+{
+    float: left;
+    width: 40%;
+}
+
+.about-me .container .image img
+{
+    width: 100%;
+    min-height: 500px;
+}
+
+.about-me .container .info
+{
+    float: left;
+    width: 55%;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.about-me .container .info h2
+{
+    text-transform: uppercase;
+    color: #888;
+}
+
+.about-me .container .info p
+{
+    text-align: left;
+    color: #D1D1D1;
+    line-height: 1.5;
+}
+
+.about-me .container .info p:last-of-type
+{
+    margin-top: 20px;
+}
+
+.about-me .container .info .hobbies .content
+{
+    width: 50%;
+    float: left;
+    min-height: 80px;
+    color: #888;
+    overflow: hidden;
+}
+
+.about-me .container .info .hobbies .content .icon 
+{
+    float: left;
+    width: 12%;
+    margin-right: 3%;
+}
+
+.about-me .container .info .hobbies .content .text
+{
+    float: left;
+    width: 83%;
+}
+
+.about-me .container .info .hobbies .content .icon img
+{
+    max-width: 100%;
+    margin: 20px 10px 0 0;
+}
+
+.about-me .container .info .hobbies > div > p
+{
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+ /* End About me */
+
+ /* Start My skills */
+
+ .my-skills
+ {
+     padding: 30px 0;
+     overflow: hidden;
+     margin-bottom: 40px;
+ }
+
+ .my-skills .container > div
+ {
+     width: 47%;
+     float: left;
+ }
+
+ .my-skills .container .skills 
+ {
+     margin-left: 6%;
+ }
+
+ .my-skills .container .skills h2
+ {
+     text-transform: uppercase;
+     color: #888;
+ }
+
+ .my-skills .container .skills p
+ {
+     color: #D1D1D1;
+     line-height: 1.6;
+     text-align: left;
+ }
+
+ .my-skills .container .skills button
+ {
+     background-color: transparent;
+     color: #2dcc70;
+     border-color: #2dcc70;
+     padding: 10px 20px;
+     margin-top: 20px;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 14px;
+ }
+
+ .my-skills .container .progress .technique
+ {
+     margin-left: 30px;
+ }
+
+ .my-skills .container .progress .technique h3
+ {
+     color: #888;
+     text-transform: uppercase;
+ }
+
+ .my-skills .container .progress .technique div
+ {
+     background-color: #F2F2F2;
+     height: 25px;
+ }
+
+ .my-skills .container .progress .technique div span
+ {
+     height: 20px;
+     background-color: #2dcc70;
+     display: block;
+     text-align: right;
+     font-weight: bold;
+     padding-top: 5px;
+     color: #FFF;
+ }
+
+ /* End My skills */
+
+/* Start Resume */
+
+.resume
+{
+    padding: 30px 0;
+}
+
+.resume .container
+{
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 250px;
+}
+
+.resume .container h3
+{
+    text-align: center;
+    color: #888;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.resume .container p
+{
+    color: #D1D1D1;
+    line-height: 1.6;
+    width: 70%;
+    margin: 30px auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.resume .container button
+{
+    background-color: transparent;
+    color: #2dcc70;
+    border-color: #2dcc70;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* End Resume */
+
+ /* Start My Education */
+
+ .my-education
+ {
+     padding: 30px 0;
+     overflow: hidden;
+ }
+
+ .my-education .container
+ {
+     overflow: hidden;
+ }
+
+ .my-education .container > div
+ {
+     width: 48%;
+     float: left;
+ }
+
+ .my-education .container .main
+ {
+     margin-right: 4%;
+ }
+
+ .my-education .container .main h2
+ {
+     text-transform: uppercase;
+     padding-left: 40px;
+     color: #888;
+ }
+
+ .my-education .container .main p
+ {
+     padding-left: 40px;
+     text-align: left;
+     color: #D1D1D1;
+ }
+
+ .my-education .container .education 
+ {
+     margin-bottom: 60px;
+ }
+
+ .my-education .container .education h3
+ {
+     margin-top: 65px;
+     text-transform: uppercase;
+     color: #888;
+     margin-bottom: 5px;
+ }
+
+ .my-education .container .education span
+ {
+     font-size: 14px;
+     color: #D1D1D1;
+     display: block;
+ }
+
+ .my-education .container .education span:last-of-type
+ {
+     font-size: 13px;
+     color: #FFF;
+     text-transform: uppercase;
+     margin-top: 5px;
+     background-color: #2dcc70;
+     width: fit-content;
+     padding: 2px 5px;
+ }
+
+ .my-education .container .education p
+ {
+     color: #D1D1D1;
+     text-align: left;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+
+ /* End My Education */
+ 
+ /* Start Testemonials */
+
+.testemonials
+{
+    background-color: #F2F2F2;
+    padding: 30px 0;
+}
+
+.testemonials .container
+{
+    text-align: center;
+}
+
+.testemonials .container q
+{
+    color: #888;
+    line-height: 1.7;
+    font-size: 16px;
+    font-style: italic; 
+}
+
+.testemonials .container h4
+{
+    color: #666;
+    padding-bottom: 20px;
+
+}
+
+.testemonials .container ul
+{
+     list-style: none;
+     text-align: center;
+}
+
+.testemonials .container ul li
+{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2dcc70;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testemonials .container ul li.active
+{
+    background-color: #2dcc70;
+}
+
+.testemonials .container ul li:hover
+{
+    background-color: #2dcc70;
+}
+
+/* End Testemonials */
+
+ /* Start portfolio */
+ 
+.portfolio
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio .container h3
+{
+    text-transform: uppercase;
+    color: #666;
+    text-align: center;
+}
+
+.portfolio .container p
+{
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    line-height: 1.4;
+    width: 80%;
+    margin: 20px auto 50px;
+}
+
+.portfolio .container .portfolioImg
+{
+    overflow: hidden;
+} 
+
+.portfolio .container .portfolioImg div
+{
+    width: 33.3333%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.portfolio .container .portfolioImg div img
+{
+    width: 95%;
+    margin-bottom: 10px;
+    height: 300px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 6px 8px 12px #CCC;
+}
+
+ /* End portfolio */
+
+  /* Start Contact me */
+
+.contact
+{
+    background-color: #252F31;
+    min-height: 300px;
+    color: #FFF;
+}
+
+.contact .container
+{
+    overflow: hidden;
+}
+
+.contact .container div
+{
+      width: 50%;
+      float: left;
+}
+
+.contact .container .info h2
+{
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.contact .container .info p
+{
+    text-align: left;
+    color: #6A6E71;
+    padding-left: 40px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.contact .container .info strong
+{
+    color: #FFF;
+    padding-right: 30px;
+}
+
+.contact .container .form form
+{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.contact .container .form label
+{
+    display: block;
+    margin: 10px 0;
+}
+
+.contact .container .form input[type="text"]
+{
+    background-color: #4B5557;
+    width: 80%;
+    border: 0;
+    height: 35px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.contact .container .form textarea
+{
+    background-color: #4B5557;
+    width: 80%;
+    border: 0;
+    color: #FFF;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.contact .container .form button
+{
+    background-color: #191E22;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* End Contact me */
+
+/* Start Footer  */
+
+.footer 
+{
+    background-color: #191E22;
+    color: #6A6E71;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.footer span
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.footer ul 
+{
+    list-style: none;
+    text-align: center; 
+    float: right;
+    margin-top: 3px;
+}
+
+.footer ul li
+{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* End Footer  */
